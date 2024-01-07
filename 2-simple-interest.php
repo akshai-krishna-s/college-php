@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Simple Interest</title>
 </head>
+
 <body>
   <form action="" method="post">
-    <input type="text" name="amount" placeholder="Enter amount">
-    <input type="text" name="rate" placeholder="Enter rate">
-    <input type="text" name="time" placeholder="Enter time">
+    <label for="amount">Enter the amount: </label>
+    <input type="number" name="amount"><br><br>
+    <label for="rate">Enter the rate: </label>
+    <input type="number" name="rate"><br><br>
+    <label for="time">Enter the time: </label>
+    <input type="number" name="time"><br><br>
 
-    <input type="submit" name="submit" value="Submit">
+    <input type="submit" name="submit" value="Submit"><br><br>
   </form>
 
   <?php
@@ -23,4 +28,5 @@
     }
   ?>
 </body>
+
 </html>

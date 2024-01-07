@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Prime or Not</title>
 </head>
+
 <body>
   <form action="" method="post">
-    <input type="text" name="num" placeholder="Enter the number">
+    <input type="number" name="num" placeholder="Enter the number">
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -35,4 +37,5 @@
     }
   ?>
 </body>
+
 </html>

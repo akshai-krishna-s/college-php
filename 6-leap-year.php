@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Leap Year</title>
 </head>
+
 <body>
   <form action="" method="post">
-    <input type="text" name="year" placeholder="Enter the year">
+    <input type="number" name="year" placeholder="Enter the year">
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -20,4 +22,5 @@
     }
   ?>
 </body>
+
 </html>

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Fibonacci</title>
 </head>
+
 <body>
   <form action="" method="post">
-    <input type="text" name="limit" placeholder="Enter the limit">
+    <input type="number" name="limit" placeholder="Enter the limit">
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -26,4 +28,5 @@
     
   ?>
 </body>
+
 </html>
