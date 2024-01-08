@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Find Length, Reverse and check Palindrome of a string</title>
+  <title>Find Length, Reverse, check Palindrome of a string and convert the string to lowercase</title>
 </head>
 
 <body>
@@ -21,6 +21,7 @@
       echo "Reverse of $str is $rev<br>";
       if ($str == $rev)echo "$str is a Palindrome";
       else echo "$str is not a Palindrome";
+      echo "<br>Lowercase of $str is ".strtolower($str)."<br>";
     }
   ?>
 </body>
