@@ -7,7 +7,8 @@
 
 <body>
   <form action="" method="post">
-    <input type="number" name="limit" placeholder="Enter the limit">
+    <label for="limit">Enter the limit: </label>
+    <input type="number" name="limit"><br><br>
     <input type="submit" name="submit" value="Submit">
   </form>
 

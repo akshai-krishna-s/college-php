@@ -7,7 +7,8 @@
 
 <body>
   <form action="" method="post">
-    <input type="number" name="num" placeholder="Enter the number">
+    <label for="num">Enter the number: </label>
+    <input type="number" name="num"><br><br>
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -15,9 +16,7 @@
     if(isset($_POST['submit'])) {
       $num = $_POST['num'];
       $fact = 1;
-      for ($i=1; $i <= $num; $i++) { 
-        $fact = $fact * $i;
-      }
+      for ($i=1; $i <= $num; $i++)  $fact = $fact * $i;
       echo "Factorial of $num is $fact";
     }
   ?>

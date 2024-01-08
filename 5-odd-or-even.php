@@ -7,7 +7,8 @@
 
 <body>
   <form action="" method="post">
-    <input type="number" name="num" placeholder="Enter the number">
+    <label for="num">Enter a number: </label>
+    <input type="number" name="num"><br><br>
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -15,11 +16,8 @@
     if(isset($_POST['submit'])) {
       $num = $_POST['num'];
       
-      if ($num %2== 0) {
-        echo "$num is even";
-      } else {
-        echo "$num is odd";
-      }
+      if ($num %2== 0) echo "$num is even";
+      else echo "$num is odd";
     }
   ?>
 </body>

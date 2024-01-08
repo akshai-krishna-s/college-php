@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Reverse of Number in Words</title>
 </head>
+
 <body>
   <form action="" method="post">
-    <input type="text" name="num" placeholder="Enter the number">
+    <label for="num">Enter the number: </label>
+    <input type="text" name="num"><br><br>
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -51,4 +54,5 @@
     }
   ?>
 </body>
+
 </html>

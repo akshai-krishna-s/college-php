@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Electricity Bill</title>
 </head>
-<body style="background-color: darksalmon;">
+
+<body style="background-color:cornsilk;">
   <h1 style="text-align: center; color: darkblue;">Electricity Bill</h1>
   <form method="post">
     <?php
@@ -33,4 +35,5 @@
     ?>
   </form>
 </body>
+
 </html>

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Simple Calculator</title>
 </head>
+
 <body>
   <form action="" method="post">
     <input type="number" name="num1" placeholder="Enter the first number">
@@ -28,4 +30,5 @@
     }
   ?>
 </body>
+
 </html>

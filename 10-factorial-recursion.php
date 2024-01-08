@@ -7,7 +7,8 @@
 
 <body>
   <form action="" method="post">
-    <input type="number" name="num" placeholder="Enter the number">
+    <label for="num">Enter the number: </label>
+    <input type="number" name="num"><br><br>
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -15,11 +16,8 @@
     if(isset($_POST['submit'])) {
       $num = $_POST['num'];
       function factorial($num) {
-        if ($num == 0) {
-          return 1;
-        } else {
-          return $num * factorial($num-1);
-        }
+        if ($num == 0) return 1;
+        else return $num * factorial($num-1);
       }
       echo "Factorial of $num is ".factorial($num);
     }

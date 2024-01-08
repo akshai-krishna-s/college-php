@@ -7,7 +7,8 @@
 
 <body>
   <form action="" method="post">
-    <input type="number" name="num" placeholder="Enter the number">
+    <label for="num">Enter the number: </label>
+    <input type="number" name="num"><br><br>
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -22,17 +23,11 @@
             break;
           }
         }
-        if ($flag == 0) {
-          echo "$num is a prime number";
-        } else {
-          echo "$num is not a prime number";
-        }
+        if ($flag == 0) echo "$num is a prime number";
+        else echo "$num is not a prime number";
       } else {
-        if ($num == 1) {
-          echo "1 is neither prime nor composite";
-        } else {
-          echo "Enter a number greater than 1";
-        }
+        if ($num == 1)echo "1 is neither prime nor composite";
+        else echo "Enter a number greater than 1";
       }
     }
   ?>

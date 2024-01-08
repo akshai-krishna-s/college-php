@@ -7,7 +7,8 @@
 
 <body>
   <form action="" method="post">
-    <input type="number" name="num" placeholder="Enter the number">
+    <label for="num">Enter the number: </label>
+    <input type="number" name="num"><br><br>
     <input type="submit" name="submit" value="Submit">
   </form>
 

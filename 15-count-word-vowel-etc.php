@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Count Words, Vowels, Consonants, Digits, Spaces and Symbols</title>
 </head>
+
 <body>
   <form action="" method="post">
-    <input type="text" name="str" placeholder="Enter the string">
+    <label for="str">Enter the string: </label>
+    <input type="text" name="str"><br><br>
     <input type="submit" name="submit" value="Submit">
   </form>
 
@@ -17,11 +20,7 @@
       $v = preg_match_all('/[aeiou]/i', $str);
       $c = preg_match_all('/[bcdfghjklmnpqrstvwxyz]/i', $str);
       $s = 0;
-      for($i = 0; $i < strlen($str); $i++){
-        if (in_array($str[$i], $symbols)){
-          $s++;
-        }
-      }
+      for($i = 0; $i < strlen($str); $i++) if (in_array($str[$i], $symbols)) $s++;
       echo "Number of Words in $str is ".str_word_count($str)."<br>";
       echo "Number of Digits in $str is $d<br>";
       echo "Number of Vowels in $str is $v<br>";
@@ -31,4 +30,5 @@
     }
   ?>
 </body>
+
 </html>
