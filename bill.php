@@ -11,12 +11,9 @@
     <?php
       date_default_timezone_set("Asia/Kolkata");
       if (isset($_POST["submit"])) {
-        $id = $_POST["id"];
-        $name = $_POST["name"];
-        $mobile = $_POST["mobile"];
-        $units = $_POST["units"];
-        $date = date("d/m/Y");
-        $time = date("h:i:sa");
+        $id = $_POST["id"]; $name = $_POST["name"];
+        $mobile = $_POST["mobile"]; $units = $_POST["units"];
+        $date = date("d/m/Y"); $time = date("h:i:sa");
         $bill = 0;
         if ($units <= 100) $bill = $units * 3;
         else if ($units <= 200) $bill = 100 * 3 + ($units - 100) * 4;

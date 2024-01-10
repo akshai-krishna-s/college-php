@@ -20,9 +20,7 @@
 
   <?php
     if(isset($_POST['submit'])) {
-      $num1 = $_POST['num1'];
-      $num2 = $_POST['num2'];
-      $op = $_POST['op'];
+      $num1 = $_POST['num1']; $num2 = $_POST['num2']; $op = $_POST['op'];
       if($op == 'add') echo "$num1 + $num2 = ".($num1+$num2)."<br>";
       else if($op == 'sub') echo "$num1 - $num2 = ".($num1-$num2)."<br>";
       else if($op == 'mul') echo "$num1 * $num2 = ".($num1*$num2)."<br>";
