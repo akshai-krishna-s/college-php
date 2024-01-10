@@ -1,0 +1,45 @@
+1, Write a php script to find the sum of two numbers
+
+2, Write a php script to calculate simple interest
+
+3, Write a php script to find the largest among two numbers
+
+4, Write a php script to find the largest among three numbers
+
+5, Write a php script to check whether the number is odd or even
+
+6, Write a php script to check whether the year is leap year or not
+
+7, Write a php script to generate fibonacci series
+
+8, Write a php script to check whether the number is prime or not
+
+9, Write a php script to generate multiplication table of a number
+
+10, Write a php script to find the factorial of number using recursion
+
+11, Write a php script to find the factorial of number without using recursion
+
+12, Write a php script to find the reverse of a number in words
+
+13, "Write a php script to find the length of string, reverse of a string and also check whether it is palindrome or not and convert the string to uppercase and lowercase"
+
+14, "Write a php script to convert decimal to binary, octal and hexadecimal"
+
+15, "Write a php script to count the number of words, vowels, consonants, digits, spaces and special characters in a string"
+
+16, "Write a php script to find the sum of two matrices"
+
+17, "Write a php script to display chessboard"
+
+18, "Write a php script to implement a simple calculator"
+
+19, "Write a php script to generate electricity bill"
+
+20, "Write a php script to generate restaurant bill"
+
+21, "Write a php script to create a database"
+
+22, "Write a php script to update a table"
+
+23, "Write a php script to delete a table"
