@@ -7,9 +7,8 @@
 
 <body style="background-color:cornsilk;">
   <h1 style="text-align: center; color: darkblue;">Restuarant Bill</h1>
-  <form method="post">
-    <table border="1" align="center">
-      <?php
+  <table border="1" align="center">
+    <?php
       if (isset($_POST["submit"])) {
         $q1 = $_POST["q1"];
         $p1 = $_POST["p1"];
@@ -35,8 +34,7 @@
   
       }
     ?>
-    </table>
-  </form>
+  </table>
 </body>
 
 </html>

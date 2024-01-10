@@ -24,7 +24,6 @@
     ?>
     <input type="text" name="price" placeholder="New price"><br><br>
     <input type="submit" name="update" value="Update"><br><br>
-    <input type="submit" name="view" value="View">
   </form>
 
   <?php
@@ -34,26 +33,6 @@
         echo "Product updated successfully";
       } else {
         echo "Error updating product: " . mysqli_error($conn);
-      }
-    }
-    if(isset($_POST['view'])) {
-      $view = "SELECT * FROM product";
-      $result = mysqli_query($conn, $view);
-      if(mysqli_num_rows($result) > 0) {
-        echo "<table border='1'>
-              <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Price</th>
-              </tr>";
-        while($row = mysqli_fetch_array($result)) {
-          echo "<tr>
-                  <td>" . $row['id'] . "</td>
-                  <td>" . $row['name'] . "</td>
-                  <td>" . $row['price'] . "</td>
-                </tr>";
-        }
-        echo "</table>";
       }
     }
   ?>

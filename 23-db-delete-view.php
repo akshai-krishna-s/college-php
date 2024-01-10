@@ -39,21 +39,8 @@
     if(isset($_POST['view'])) {
       $view = "SELECT * FROM product";
       $result = mysqli_query($conn, $view);
-      if(mysqli_num_rows($result) > 0) {
-        echo "<table border='1'>
-              <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Price</th>
-              </tr>";
-        while($row = mysqli_fetch_array($result)) {
-          echo "<tr>
-                  <td>" . $row['id'] . "</td>
-                  <td>" . $row['name'] . "</td>
-                  <td>" . $row['price'] . "</td>
-                </tr>";
-        }
-        echo "</table>";
+      while($row = mysqli_fetch_array($result)) {
+        echo $row['id'] . " " . $row['name'] . " " . $row['price'] . "<br>";
       }
     }
   ?>
