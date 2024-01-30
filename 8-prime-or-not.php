@@ -25,10 +25,9 @@
         }
         if ($flag == 0) echo "$num is a prime number";
         else echo "$num is not a prime number";
-      } else {
-        if ($num == 1)echo "1 is neither prime nor composite";
-        else echo "Enter a number greater than 1";
       }
+      else if ($num == 1)echo "1 is neither prime nor composite";
+      else echo "Enter a number greater than 0";   
     }
   ?>
 </body>
