@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Chess Board</title>
 </head>
+
 <body style="background-color: #456456;">
 
-  <div style="width: 400px; height:400px;">
+  <div style="width:400px; height:400px;">
     <?php
       for($i = 0; $i < 8; $i++){
         for($j = 0; $j < 8; $j++){
@@ -15,7 +17,8 @@
         }
         echo "<br>";
       }
-    ?>  
+    ?>
   </div>
 </body>
+
 </html>

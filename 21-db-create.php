@@ -19,7 +19,7 @@
       if(!$conn) {
         die("Connection failed: " . mysqli_connect_error());
       } else {
-        $sql = "CREATE DATABASE $db_name";
+        $sql = "CREATE DATABASE $db_name;";
         if(mysqli_query($conn, $sql)) {
           echo "Database created successfully";
         } else {

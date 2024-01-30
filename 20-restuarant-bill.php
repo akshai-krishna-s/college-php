@@ -29,7 +29,7 @@
         <td><input type="number" name="p3"></td>
       </tr>
       <tr>
-        <td colspan="3"><input type="submit" name="submit" value="Submit"></td>
+        <td colspan="3"><input style="width:100%;" type="submit" name="submit" value="Submit"></td>
       </tr>
     </table>
   </form>
